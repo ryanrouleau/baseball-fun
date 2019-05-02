@@ -6,13 +6,13 @@
 * [Jupyter notebook to calculate and export ASLG for a specific season](https://github.com/ryanrouleau/baseball-fun/blob/master/ASLG.ipynb)
 * Exported json data for each season (2016, 2017, 2018) are called 20xx\_ASLG\_results.json at the root of the repo
 * [The React app that consumes the json data](https://github.com/ryanrouleau/baseball-fun/tree/master/frontend)
-* [The video demonstration]()
+* [The video demonstration](https://youtu.be/PwtIVWbV808)
 
 ## Explanation
 
 Slugging Percentage, or SLG, is a relatively simple calculation designed to measure the batting productivity of a hitter.  The calculation is as follows: (1 * Single + 2 * Double + 3 * Triple + 4 * Home Run) / # total at bats.  What makes SLG special is that it takes into account the quality of hits and not just if the batter made a hit or not such as in Batting Average (BA).
 
-The problem with this statistic is that it does not account for differences in ball parks.  For example, a batter who plays most frequently at Coors Stadium (a mile high) will have a higher SLG than a similarly skilled player at Marlin's stadium (sea level) as it is significantly easier to make higher scoring hits such as home runs at Coors.   
+The problem with this statistic is that it does not account for differences in ball parks.  For example, a batter who plays most frequently at Coors Stadium (a mile high) will have a higher SLG than a similarly skilled player the plays more often at Marlin's stadium (sea level) (it is significantly easier to make higher scoring hits such as home runs at Coors).   
 
 As a result of this, if players are compared to each other across an entire season to determine who are good hitters, it will be unfairly skewed to those who play most often at stadiums that are good for hitting.
 
